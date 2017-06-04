@@ -22,10 +22,21 @@
                     </constraints>
                     <state key="normal" title="Balance"/>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zbl-OH-hsG">
+                    <rect key="frame" x="16" y="58" width="89" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="TCi-Km-pQV"/>
+                        <constraint firstAttribute="width" constant="89" id="kXC-HX-Ujz"/>
+                    </constraints>
+                    <state key="normal" title="Balance"/>
+                </button>
             </subviews>
             <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
             <constraints>
+                <constraint firstItem="zbl-OH-hsG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="CuO-Sj-fBX"/>
                 <constraint firstItem="Nv1-Lh-Zlb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="aNG-g5-Jk7"/>
+                <constraint firstAttribute="bottom" secondItem="zbl-OH-hsG" secondAttribute="bottom" constant="72" id="reA-8T-OsP"/>
+                <constraint firstItem="zbl-OH-hsG" firstAttribute="top" secondItem="Nv1-Lh-Zlb" secondAttribute="bottom" constant="8" id="xBu-OV-DZP"/>
                 <constraint firstItem="Nv1-Lh-Zlb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="xe2-cR-JkK"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>

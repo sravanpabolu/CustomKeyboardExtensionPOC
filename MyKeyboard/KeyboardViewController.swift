@@ -69,6 +69,8 @@ class KeyboardViewController: UIInputViewController {
         
         //add menu view
         view.addSubview(menuView)
+
+        
     }
     
     @IBAction func buttonBackSpaceTapped(button: UIButton) {
